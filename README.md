@@ -13,7 +13,7 @@
  ### Решение задачи:
 Тут находится сам класс [ТЫК](https://github.com/Skuybedin/MindBoxTask/blob/master/MindBoxLib/CalcSquare.cs)
 
-А тут Unit тесты [ТЫК](https://github.com/Skuybedin/MindBoxTask/tree/master/MindBoxLib.Tests)
+А тут Unit тесты [ТЫК](https://github.com/Skuybedin/MindBoxTask/blob/master/MindBoxLib.Tests/CalcSquareTest.cs)
 
 # Задача на SQL
 
