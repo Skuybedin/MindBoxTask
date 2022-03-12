@@ -6,8 +6,8 @@ namespace MindBoxLib
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle("Круг", 12);
-            Triangle triangle = new Triangle("Треугольник", 4, 4, 5);
+            Circle circle = new Circle("Circle", 12);
+            Triangle triangle = new Triangle("Triangle", 4, 4, 5);
 
             Console.WriteLine(circle.CalcSquare());
             Console.WriteLine(triangle.CalcSquare());
