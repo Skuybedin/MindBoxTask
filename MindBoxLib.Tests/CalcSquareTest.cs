@@ -9,7 +9,7 @@ namespace MindBoxLib.Tests
         public void Square_12_Return_452_4()
         {
             //arrange
-            Circle circle = new Circle("Круг",12);
+            Circle circle = new Circle("Circle",12);
             double expected = 452.4;
 
             //act
@@ -27,7 +27,7 @@ namespace MindBoxLib.Tests
         public void Square_4_4_5_Return_7_8()
         {
             //arrange
-            Triangle triangle = new Triangle("Треугольник", 4, 4, 5);
+            Triangle triangle = new Triangle("Triangle", 4, 4, 5);
             double expected = 7.8;
 
             //act
@@ -41,7 +41,7 @@ namespace MindBoxLib.Tests
         public void isRectangle_NotRectangle_ReturnFalse()
         {
             //Arrange
-            var triangle = new Triangle("Треугольник",2,3,4);
+            var triangle = new Triangle("Triangle",2,3,4);
 
             //Act
             var result = triangle.IsRectangular();
